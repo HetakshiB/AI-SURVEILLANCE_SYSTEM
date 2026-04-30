@@ -45,9 +45,9 @@ AI_SURVELLIENCE/
 │   └── storage/            # Database and Persistence
 ├── ui/
 │   └── app.py              # Main Streamlit Dashboard
+├── scripts/                # Development and testing utilities
 ├── outputs/                # Saved incident frames and clips
 ├── assets/                 # Static assets and icons
-├── criminal-dataset/       # Database of known criminal faces
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
@@ -90,4 +90,4 @@ streamlit run ui/app.py
 This project is for educational and security research purposes.
 
 ---
-*Developed by Antigravity AI Coding Agent.*
+
