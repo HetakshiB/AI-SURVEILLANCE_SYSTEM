@@ -1,0 +1,38 @@
+# Virtual Environments
+venv/
+venv310/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large Data & Datasets (Prevent Push Errors)
+*.zip
+*.rar
+*.7z
+"gun-knife dataset/"
+"criminal-dataset/"
+"test images/"
+gun-knife\ dataset/
+criminal-dataset/
+test\ images/
+**/dataset/**
+**/data/**
+
+
+# Surveillance Outputs (Don't push private captures)
+outputs/
+storage/*.json
+!storage/report_template.html
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+

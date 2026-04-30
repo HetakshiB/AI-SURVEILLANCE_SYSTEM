@@ -1,0 +1,8 @@
+train: D:/AI_SURVELLIENCE/gun-knife dataset/images/train
+val: D:/AI_SURVELLIENCE/gun-knife dataset/images/val
+
+nc: 2
+
+names:
+  0: gun
+  1: knife
